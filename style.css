@@ -1,0 +1,102 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    margin-top: 3em;
+}
+
+header,
+main {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+header{
+    padding: 4em 0;
+    margin-bottom: 4em;
+}
+
+header h1{
+    font-size: 4em;
+    color : #232F3E;
+}
+
+head span {
+    font-size: 2em;
+    color: #A5AEB9;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    font-weight: 200;
+    font-size: 80%;
+    
+    background-color: #232F3E;
+
+}
+
+nav a{
+    padding: .5em 2em;
+    color: #A5AEB9;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #666;
+
+}
+
+section {
+    margin: 1em 0;
+    padding-top: 3em;
+    min-height: 10em;
+}
+
+#portafolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+
+#portafolio article {
+    background: #ccc;
+    padding: 1em;
+    border-radius: 5px;
+    
+
+}
+
+#portafolio article img{
+    width: 100%;
+}
+#portafolio article ul{
+    margin-left: 1.5em;
+
+}
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: #232F3E;
+    color: #ff9900;
+    text-align: center;
+    padding: 1em 0;
+    
+
+
+}
+
